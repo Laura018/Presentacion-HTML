@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    padding: 2%;
+}
+.header{
+    background-attachment: fixed;
+    background-image: url('img/city.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*centrar los elementos*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.indicacion{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 5%;
+    color: white;
+    padding: 1%;
+    width: 300px;
+}
+.aviso{
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5%;
+    color: white;
+    padding: 1%;
+    width: 300px;
+}
+.aboutMe{
+    margin: auto;
+    overflow: hidden; /*Regula la visibilidad de un contenido*/
+    padding: 30px;
+    width: 90%;  
+}
+
+p{
+    font-size: 20px;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    text-align: justify;
+}
+
+.hobbie{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-attachment: fixed;
+    background-image: url('img/lettering.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+}
+
+.germany{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url('img/germany.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+}
+footer{
+    color: white;
+    background: #FFA17F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #00223E, #FFA17F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #00223E, #FFA17F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
+}
+.places{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.country{
+    width: 300px;
+    margin-left: 40%;
+   
+
+}
+.country h2{
+    color: white;
+
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046); 
+    background: linear-gradient(to right, #1CB5E0, #000046); 
+
+
+    width: 215px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.country ul{
+    position: relative;
+    background: white;
+    width: 255px;
+}
+
+.country ul li {
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+    width: 235px;
+    background: white;
+    box-shadow: 0 5px 25px rgba(0,0,0,.1);
+    transition: transform 0.5s;
+}
+
+.country ul li:hover{
+    transform:scale(1.1);
+    z-index: 90;
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-shadow: 0 5px 25px rgba(0,0,0,.2);
+    color:#fff;
+
+}
+footer{
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font: white;
+    text-align: center;
+    height: auto;
+}
